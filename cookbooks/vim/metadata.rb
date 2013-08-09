@@ -1,6 +1,6 @@
 maintainer        "Sridatta Thatipamala"
 maintainer_email  "sthatipamala@gmail.com"
-description       "baz"
+description       "vim"
 version           "0.1.1"
 
-depends "qux"
+depends "common"
