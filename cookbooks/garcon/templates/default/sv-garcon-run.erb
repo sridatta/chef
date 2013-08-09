@@ -1,0 +1,5 @@
+#!/bin/bash -ex
+
+cd <%= node.garcon.client_download_dir %>
+export GEM_HOME=<%= File.join node.garcon.home, '.gem'  %>
+chpst -u <%= node.garcon.user %> bundle exec garcon server -f <%= node.garcon.json_config  %>
